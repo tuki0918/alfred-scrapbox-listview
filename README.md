@@ -14,13 +14,17 @@ $ sb [keyword]
 
 + Depended on [jq](https://stedolan.github.io/jq/) command.
 + Import this `.alfredworkflow` file.
-    + `projectId (required)` ... ex) ABC-XXX
-    + `token (required)` ... ex) s%123456789ABC
-    + `JQPATH (option)` ... ex) /usr/local/bin
- 
+    + (required) `projectId` ... ex) ######
+        + My Page URL: `https://scrapbox.io/######/`
+    + (required) `token` ... ex) ######
+        + My Logined Cookie: `Cookie: connect.sid=######`
+    + (option)   `endpoint` ... ex) scrapbox.io
+        + Scrapbox's Domain Name
+    + (option)   `JQPATH` ... ex) /usr/local/bin
+        + jq command PATH
 
-![image](.resources/1.alfred.png)
-![image](.resources/2.alfred.png)
+![image](.resources/1.alfred.v0.2.png)
+![image](.resources/2.alfred.v0.2.png)
 
 ## Note
 
