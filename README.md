@@ -2,11 +2,12 @@
 
 ## Usage
 
-+ Typing "sb" will fetch a list of scrapbox items.
+```
+sb [keyword]
+```
 
-```
-$ sb [keyword]
-```
++ 1 ) Typing "sb" will fetch a list of scrapbox items.
++ 2 ) You can redirect to the "keyword" page you typed.
 
 ![image](.resources/0.alfred.png)
 
@@ -23,8 +24,8 @@ $ sb [keyword]
     + (option)   `JQPATH` ... ex) /usr/local/bin
         + jq command PATH
 
-![image](.resources/1.alfred.v0.2.png)
-![image](.resources/2.alfred.v0.2.png)
+![image](.resources/1.alfred.v0.3.png)
+![image](.resources/2.alfred.v0.3.png)
 
 ## Note
 
